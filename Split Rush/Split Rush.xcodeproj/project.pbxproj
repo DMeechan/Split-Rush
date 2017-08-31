@@ -16,6 +16,7 @@
 		652B1A461F58256800A58769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652B1A451F58256800A58769 /* Assets.xcassets */; };
 		652B1A491F58256800A58769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652B1A471F58256800A58769 /* LaunchScreen.storyboard */; };
 		652B1A511F5826AF00A58769 /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B1A501F5826AF00A58769 /* GameElements.swift */; };
+		65452C7E1F583E0C00DB3097 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65452C7D1F583E0C00DB3097 /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		652B1A481F58256800A58769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		652B1A4A1F58256800A58769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		652B1A501F5826AF00A58769 /* GameElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
+		65452C7D1F583E0C00DB3097 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				652B1A3A1F58256800A58769 /* GameScene.sks */,
 				652B1A3C1F58256800A58769 /* Actions.sks */,
 				652B1A3E1F58256800A58769 /* GameScene.swift */,
+				65452C7D1F583E0C00DB3097 /* GameOverScene.swift */,
 				652B1A501F5826AF00A58769 /* GameElements.swift */,
 				652B1A401F58256800A58769 /* GameViewController.swift */,
 				652B1A421F58256800A58769 /* Main.storyboard */,
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65452C7E1F583E0C00DB3097 /* GameOverScene.swift in Sources */,
 				652B1A511F5826AF00A58769 /* GameElements.swift in Sources */,
 				652B1A3F1F58256800A58769 /* GameScene.swift in Sources */,
 				652B1A411F58256800A58769 /* GameViewController.swift in Sources */,
@@ -320,6 +324,7 @@
 				652B1A4F1F58256800A58769 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -65,9 +65,17 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
   func didBegin(_ contact: SKPhysicsContact) {
     // BodyA = obstacle; BodyB = player
     if contact.bodyB.node?.name == "PLAYER" {
-      // Show game over scene
-      print("GAME OVER")
+      showGameOver()
+      
     }
+  }
+  
+  func showGameOver() {
+    let transition = SKTransition.fade(withDuration: 0.5)
+    let gameOverScene = GameOverScene(size: self.size)
+    
+    self.view?.presentScene(gameOverScene, transition: transition)
+    
   }
   
   // MARK: Player movement
